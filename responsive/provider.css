@@ -1,0 +1,579 @@
+@media screen and (max-width: 1150px) {
+  .hero_bg {
+    height: 640px;
+  }
+  .header_navbar img {
+    width: 190px;
+    height: 35px;
+  }
+  .header_navbar {
+    gap: 24px;
+  }
+  .header_navbar ul {
+    gap: 25px;
+  }
+  .header_navbar ul a {
+    font-size: 10px;
+  }
+  .header_contact a {
+    font-size: 14px;
+  }
+}
+@media screen and (max-width: 1024px) {
+  .header_navbar {
+    display: none;
+  }
+  .header_contact {
+    margin-left: auto;
+  }
+  .for_responsibility {
+    display: block;
+    position: absolute;
+  }
+  .checkbox:checked + .for_responsibility .burger_overlay {
+    display: block;
+  }
+  .hero_bg {
+    height: 600px;
+  }
+  .hero h1 {
+    font-size: 48px;
+    line-height: 120%;
+  }
+  .hero p {
+    font-size: 16px;
+    line-height: 160%;
+    max-width: 452px;
+    margin-top: 22px;
+  }
+  .hero button {
+    margin: 48px 0 61px;
+  }
+  header {
+    padding-top: 17px;
+  }
+  .burger {
+    top: 25px;
+    left: 25px;
+  }
+  .checkbox:checked + .for_responsibility .burger {
+    transform: translate(243px, -5px);
+  }
+  .whatsapp {
+    transform: translateY(60px);
+  }
+  .title {
+    margin: 92px 0 40px;
+  }
+  .title h2 {
+    font-size: 36px;
+  }
+  .title p {
+    font-size: 16px;
+    max-width: 454px;
+  }
+  .recall_bg {
+    height: 761px;
+    padding: 57px 32px 0px 50px;
+  }
+  .recall {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    gap: 78px;
+  }
+  .recall_text {
+    width: 100%;
+    height: 20%;
+  }
+  .recall_text a {
+    display: none;
+  }
+  .recall_text h3 {
+    display: none;
+  }
+  .recall_text > p {
+    display: none;
+  }
+  .recall_form {
+    margin-top: auto;
+    height: 80%;
+    width: 80%;
+    padding: 42px 46px 42px 49px;
+    gap: 10px;
+    clip-path: polygon(0 0, 90% 0, 100% 13%, 100% 100%, 0 100%, 0% 50%);
+  }
+  .recall_text h2 {
+    font-size: 28px;
+    text-align: center;
+    margin: 0 auto;
+  }
+  .logo_item {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  .logo_item p {
+    display: none;
+  }
+  .footer_item {
+    width: 24%;
+  }
+  footer {
+    padding: 41px 22px 27px 20px;
+  }
+  .footer_item ul li a {
+    margin-bottom: 8px;
+  }
+  .footer_title {
+    margin-bottom: 20px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .hero_bg {
+    height: 500px;
+  }
+  .hero h1 {
+    font-size: 36px;
+    line-height: 120%;
+  }
+  .hero p {
+    font-size: 16px;
+    line-height: 160%;
+    max-width: 452px;
+    margin-top: 18px;
+  }
+  .hero button {
+    margin: 38px 0 41px;
+  }
+  header {
+    padding-top: 10px;
+  }
+  .burger {
+    top: 15px;
+    left: 15px;
+  }
+  .checkbox:checked + .for_responsibility .burger {
+    transform: translate(252px, 10px);
+  }
+  .title {
+    margin: 72px 0 35px;
+  }
+  .title h2 {
+    font-size: 28px;
+  }
+  .title p {
+    font-size: 16px;
+    max-width: 454px;
+    margin-top: 10px;
+  }
+  .material_item {
+    width: 49%;
+    margin-bottom: 30px;
+    clip-path: polygon(0 0, 78% 0, 100% 20%, 100% 100%, 0 100%);
+  }
+  .material_item h2 {
+    font-size: 26px;
+    margin: 15px 0 10px;
+  }
+  .material_item p {
+    font-size: 16px;
+  }
+  .transportation {
+    height: 850px;
+  }
+  .transportation_item {
+    width: 85%;
+    height: 410px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto 30px;
+    padding: 0 10px;
+  }
+  .transportation_item h2 {
+    font-size: 24px;
+  }
+  .transportation_item button {
+    padding: 16px 25px;
+    font-size: 14px;
+    margin-top: 40px;
+  }
+  .recall_bg {
+    height: 761px;
+    padding: 57px 32px 0px 50px;
+  }
+  .recall {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    gap: 50px;
+  }
+  .recall_text {
+    width: 100%;
+    height: 15%;
+  }
+  .recall_form {
+    margin-top: auto;
+    height: 85%;
+    width: 95%;
+    padding: 32px 36px 32px 39px;
+    gap: 10px;
+    clip-path: polygon(0 0, 90% 0, 100% 11%, 100% 100%, 0 100%, 0% 50%);
+  }
+  .recall_text h2 {
+    font-size: 24px;
+    text-align: center;
+    margin: 0 auto;
+  }
+  .logo_item {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  .logo_item p {
+    display: none;
+  }
+  .footer_item {
+    width: 47%;
+    margin-bottom: 30px;
+  }
+  footer {
+    padding: 41px 22px 27px 20px;
+  }
+  .footer_item ul li a {
+    margin-bottom: 8px;
+  }
+  .footer_title {
+    margin-bottom: 20px;
+  }
+  .footer_top {
+    margin-bottom: 39px;
+  }
+  .footer_down a:last-of-type {
+    display: none;
+  }
+  .footer_down a {
+    font-size: 10px;
+  }
+}
+@media screen and (max-width: 480px) {
+  .hero_bg {
+    height: 470px;
+  }
+  .hero {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  .hero h1 {
+    margin-top: 40px;
+    font-size: 36px;
+    line-height: 120%;
+  }
+  .hero p {
+    font-size: 14px;
+    line-height: 160%;
+    max-width: 352px;
+    margin-top: 18px;
+  }
+  .hero button {
+    margin: 38px 0 41px;
+  }
+  .whatsapp {
+    bottom: 10px;
+    right: 10px;
+    width: 35px;
+    height: 35px;
+  }
+  .whatsapp img {
+    width: 100%;
+    height: 100%;
+    transform: translate(0px, 0px) scale(1.1);
+  }
+  .header_contact {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 0px;
+    transform: translateY(-5px);
+  }
+  .burger {
+    top: 30px;
+    left: 20px;
+  }
+  .checkbox:checked + .for_responsibility .burger {
+    transform: translate(252px, -10px);
+  }
+  .burger_menu {
+    width: 330px;
+    height: 310px;
+    padding: 20px;
+  }
+  .whatsapp {
+    transform: translateY(0px);
+  }
+  .title {
+    margin: 62px 0 35px;
+  }
+  .title h2 {
+    font-size: 24px;
+  }
+  .title p {
+    display: none;
+  }
+  .material_item {
+    width: 80%;
+    margin: 0 auto 40px;
+    clip-path: polygon(0 0, 78% 0, 100% 20%, 100% 100%, 0 100%);
+  }
+  .material_item h2 {
+    font-size: 26px;
+    margin: 15px 0 10px;
+  }
+  .material_item p {
+    font-size: 16px;
+  }
+  .transportation_item {
+    width: 95%;
+    margin: 0 auto 30px;
+    padding: 0 10px;
+  }
+  .transportation_item h2 {
+    font-size: 20px;
+  }
+  .transportation_item button {
+    padding: 11px 20px;
+    font-size: 12px;
+    margin-top: 30px;
+  }
+  .transportation {
+    height: 830px;
+  }
+  .recall_bg {
+    height: 761px;
+    padding: 27px 17px 0px 30px;
+  }
+  .recall {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+  }
+  .recall_text {
+    width: 100%;
+    height: 13%;
+  }
+  .recall_form {
+    margin-top: auto;
+    height: 87%;
+    width: 100%;
+    padding: 17px 21px 17px 24px;
+    gap: 10px;
+    clip-path: polygon(0 0, 90% 0, 100% 8%, 100% 100%, 0 100%, 0% 50%);
+  }
+  .recall_text h2 {
+    font-size: 20px;
+    text-align: center;
+    margin: 0 auto;
+  }
+  .recall_phone {
+    width: 100%;
+  }
+  .recall_email {
+    width: 100%;
+  }
+  .recall_form a {
+    padding: 14px 45px;
+    font-size: 14px;
+  }
+  .logo_item {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  .logo_item p {
+    display: none;
+  }
+  .footer_item {
+    width: 48%;
+    margin-bottom: 20px;
+  }
+  footer {
+    padding: 41px 7px 27px 5px;
+  }
+  .footer_item ul li a {
+    margin-bottom: 4px;
+  }
+  .footer_title {
+    margin-bottom: 15px;
+  }
+  .footer_top {
+    margin-bottom: 29px;
+  }
+  .footer_down {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+  }
+  .footer_down a:nth-of-type(2) {
+    margin-left: auto;
+  }
+  .footer_down a {
+    font-size: 12px;
+  }
+}
+@media screen and (max-width: 320px) {
+  .hero_bg {
+    height: 430px;
+  }
+  .hero h1 {
+    margin-top: 40px;
+    font-size: 24px;
+  }
+  .hero p {
+    font-size: 12px;
+    line-height: 160%;
+    max-width: 242px;
+    margin-top: 18px;
+  }
+  .hero button {
+    margin: 23px 0 21px;
+    padding: 10px 22px;
+  }
+  .burger {
+    top: 25px;
+    left: 20px;
+  }
+  .burger_menu {
+    width: 320px;
+    height: 310px;
+    padding: 15px;
+  }
+  .checkbox:checked + .for_responsibility .burger {
+    transform: translate(245px, -5px);
+  }
+  .title {
+    margin: 52px 0 30px;
+  }
+  .title h2 {
+    font-size: 20px;
+  }
+  .material_item {
+    width: 95%;
+    margin: 0 auto 10px;
+  }
+  .transportation_item {
+    width: 95%;
+    margin: 0 auto 30px;
+    padding: 0 10px;
+  }
+  .transportation_item h2 {
+    font-size: 18px;
+  }
+  .transportation_item button {
+    padding: 11px 20px;
+    font-size: 10px;
+    margin-top: 25px;
+  }
+  .transportation {
+    height: 810px;
+  }
+  .recall_bg {
+    height: 761px;
+    padding: 27px 0px 0px 0px;
+  }
+  .recall {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+  }
+  .recall_text {
+    width: 100%;
+    height: 13%;
+  }
+  .recall_form {
+    margin-top: auto;
+    height: 87%;
+    width: 100%;
+    padding: 12px 21px 18px 19px;
+    gap: 10px;
+    clip-path: polygon(0 0, 90% 0, 100% 7%, 100% 100%, 0 100%, 0% 50%);
+  }
+  .recall_text h2 {
+    font-size: 20px;
+    text-align: center;
+    margin: 0 auto;
+  }
+  .recall_phone {
+    width: 100%;
+  }
+  .recall_email {
+    width: 100%;
+  }
+  .recall_form a {
+    padding: 14px 45px;
+    font-size: 14px;
+  }
+  .logo_item {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  .logo_item img {
+    margin: 0 auto;
+  }
+  .logo_item p {
+    display: none;
+  }
+  .footer_item {
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  .footer_item ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  #link_max {
+    display: none;
+  }
+  .footer_item p {
+    text-align: center;
+  }
+  footer {
+    padding: 41px 0px 27px 0px;
+  }
+  .footer_item ul li a {
+    margin-bottom: 4px;
+    font-size: 16px;
+  }
+  .footer_title {
+    margin-bottom: 15px;
+    font-size: 28px;
+  }
+  .footer_top {
+    margin-bottom: 29px;
+  }
+  .footer_down {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 10px;
+  }
+  .footer_down a:nth-of-type(2) {
+    margin: 0 auto;
+  }
+}

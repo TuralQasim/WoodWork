@@ -1,0 +1,356 @@
+@media screen and (max-width: 1150px) {
+  .hero_bg {
+    height: 484px;
+  }
+  .header_navbar img {
+    width: 190px;
+    height: 35px;
+  }
+  .header_navbar {
+    gap: 24px;
+  }
+  .header_navbar ul {
+    gap: 25px;
+  }
+  .header_navbar ul a {
+    font-size: 10px;
+  }
+  .header_contact a {
+    font-size: 14px;
+  }
+}
+@media screen and (max-width: 1024px) {
+  .header_navbar {
+    display: none;
+  }
+  .header_contact {
+    margin-left: auto;
+  }
+  .for_responsibility {
+    display: block;
+    position: absolute;
+  }
+  .checkbox:checked + .for_responsibility .burger_overlay {
+    display: block;
+  }
+  .hero_bg {
+    height: 432px;
+  }
+  .hero h1 {
+    margin-top: 200px;
+    font-size: 40px;
+    line-height: 120%;
+  }
+  .hero p {
+    font-size: 16px;
+  }
+  header {
+    padding-top: 17px;
+  }
+  .burger {
+    top: 25px;
+    left: 25px;
+  }
+  .checkbox:checked + .for_responsibility .burger {
+    transform: translate(243px, -5px);
+  }
+  .news_item:nth-of-type(3) {
+    display: none;
+  }
+  .news_item {
+    width: 48.3%;
+  }
+  .news {
+    margin: 42px 0 117px;
+  }
+  .news_text h2 {
+    font-size: 20px;
+  }
+  .news_text p {
+    font-size: 18px;
+    margin: 10px 0 16px;
+  }
+  .news_text h4 {
+    font-size: 18px;
+  }
+  .logo_item {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  .logo_item p {
+    display: none;
+  }
+  .footer_item {
+    width: 24%;
+  }
+  footer {
+    padding: 41px 22px 27px 20px;
+  }
+  .footer_item ul li a {
+    margin-bottom: 8px;
+  }
+  .footer_title {
+    margin-bottom: 20px;
+  }
+  .vacancy_modal {
+    padding: 96px 93px 97px 117px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .hero_bg {
+    height: 382px;
+  }
+  .hero h1 {
+    margin-top: 150px;
+    font-size: 36px;
+  }
+  .hero p {
+    font-size: 16px;
+    max-width: 400px;
+  }
+  header {
+    padding-top: 10px;
+  }
+  .burger {
+    top: 15px;
+    left: 15px;
+  }
+  .checkbox:checked + .for_responsibility .burger {
+    transform: translate(252px, 10px);
+  }
+  .logo_item {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  .logo_item p {
+    display: none;
+  }
+  .footer_item {
+    width: 47%;
+    margin-bottom: 30px;
+  }
+  footer {
+    padding: 41px 22px 27px 20px;
+  }
+  .footer_item ul li a {
+    margin-bottom: 8px;
+  }
+  .footer_title {
+    margin-bottom: 20px;
+  }
+  .footer_top {
+    margin-bottom: 39px;
+  }
+  .footer_down a:last-of-type {
+    display: none;
+  }
+  .footer_down a {
+    font-size: 10px;
+  }
+  .vacancy_modal {
+    padding: 76px 73px 77px 77px;
+  }
+}
+@media screen and (max-width: 480px) {
+  .hero_bg {
+    height: 380px;
+  }
+  .hero {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  .hero h1 {
+    margin-top: 100px;
+    font-size: 28px;
+    line-height: 120%;
+  }
+  .hero p {
+    font-size: 14px;
+    max-width: 300px;
+  }
+  .header_contact {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 0px;
+    transform: translateY(-5px);
+  }
+  .burger {
+    top: 30px;
+    left: 20px;
+  }
+  .checkbox:checked + .for_responsibility .burger {
+    transform: translate(252px, -10px);
+  }
+  .burger_menu {
+    width: 330px;
+    height: 310px;
+    padding: 20px;
+  }
+  .news_item:nth-of-type(3) {
+    display: block;
+  }
+  .news_item {
+    width: 90%;
+    margin: 0 auto 50px;
+  }
+  .news {
+    margin: 32px 0 77px;
+  }
+  .news_text h2 {
+    font-size: 22px;
+  }
+  .news_text p {
+    font-size: 18px;
+    margin: 10px 0 16px;
+  }
+  .news_text h4 {
+    font-size: 20px;
+  }
+  .logo_item {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  .logo_item p {
+    display: none;
+  }
+  .footer_item {
+    width: 48%;
+    margin-bottom: 20px;
+  }
+  footer {
+    padding: 41px 7px 27px 5px;
+  }
+  .footer_item ul li a {
+    margin-bottom: 4px;
+  }
+  .footer_title {
+    margin-bottom: 15px;
+  }
+  .footer_top {
+    margin-bottom: 29px;
+  }
+  .footer_down {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+  }
+  .footer_down a:nth-of-type(2) {
+    margin-left: auto;
+  }
+  .footer_down a {
+    font-size: 12px;
+  }
+  .vacancy_modal {
+    padding: 46px 43px 47px 47px;
+  }
+  .vacancy_modal h2 {
+    font-size: 24px;
+  }
+  .vacancy_modal p {
+    font-size: 14px;
+  }
+  .vacancy_modal i {
+    top: 15px;
+    right: 15px;
+    font-size: 48px;
+  }
+}
+@media screen and (max-width: 320px) {
+  .hero_bg {
+    height: 380px;
+  }
+  .hero h1 {
+    margin-top: 120px;
+    font-size: 36px;
+  }
+  .hero p {
+    display: none;
+  }
+  .burger {
+    top: 25px;
+    left: 20px;
+  }
+  .burger_menu {
+    width: 320px;
+    height: 310px;
+    padding: 15px;
+  }
+  .checkbox:checked + .for_responsibility .burger {
+    transform: translate(245px, -5px);
+  }
+  .logo_item {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  .logo_item img {
+    margin: 0 auto;
+  }
+  .logo_item p {
+    display: none;
+  }
+  .footer_item {
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  .footer_item ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  #link_max {
+    display: none;
+  }
+  .footer_item p {
+    text-align: center;
+  }
+  footer {
+    padding: 41px 0px 27px 0px;
+  }
+  .footer_item ul li a {
+    margin-bottom: 4px;
+    font-size: 16px;
+  }
+  .footer_title {
+    margin-bottom: 15px;
+    font-size: 28px;
+  }
+  .footer_top {
+    margin-bottom: 29px;
+  }
+  .footer_down {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 10px;
+  }
+  .footer_down a:nth-of-type(2) {
+    margin: 0 auto;
+  }
+  .vacancy_modal {
+    padding: 26px 23px 27px 27px;
+  }
+  .vacancy_modal h2 {
+    font-size: 24px;
+  }
+  .vacancy_modal p {
+    font-size: 14px;
+    text-align: center;
+  }
+  .vacancy_modal i {
+    top: 10px;
+    right: 10px;
+    font-size: 40px;
+  }
+}
